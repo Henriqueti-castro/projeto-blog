@@ -38,6 +38,7 @@ header#topo {
     align-items: center;
     padding: 20px;
     padding-left: 100px;
+    padding-right: 100px;
 }
 
 h1.infotec span {
@@ -49,5 +50,11 @@ header#topo h1.infotec {
     font-family: var(--font-archivo);
     font-size: 1.8em;
     font-weight: 900;
+}
+
+header#topo nav#navegacao {
+    display: flex;
+    gap: 2em;
+    margin-left: auto;
 }
 
