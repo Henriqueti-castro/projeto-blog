@@ -29,5 +29,14 @@ html, body {
 
 body {
     background-color: var(--cor-Brancoacinzentado);
+    font-family: var(--font-work);
+}
+
+header#topo {
+    background-color: var(--cor-Azulprofundo);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 100px;
 }
 
