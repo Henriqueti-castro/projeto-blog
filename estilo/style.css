@@ -58,3 +58,10 @@ header#topo nav#navegacao {
     margin-left: auto;
 }
 
+nav#navegacao a {
+    color: var(--cor-Branco);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
