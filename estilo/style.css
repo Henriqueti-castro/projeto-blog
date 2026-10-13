@@ -8,7 +8,7 @@
     
     --cor-Brancoacinzentado: #F5F7FA;
     --cor-Azulprofundo: #172B4D;
-    --cor-Azulvibrante: #2878D0;
+    --cor-Azulvibrante: #69B5FF;
     --cor-Branco: #ffffff;
     --cor-Cinzagrafite: #263238;
     --cor-Azulsuave: #DCEBFA;
@@ -38,5 +38,16 @@ header#topo {
     align-items: center;
     padding: 20px;
     padding-left: 100px;
+}
+
+h1.infotec span {
+    color: var(--cor-Azulvibrante);
+}
+
+header#topo h1.infotec {
+    color: var(--cor-Branco);
+    font-family: var(--font-archivo);
+    font-size: 1.8em;
+    font-weight: 900;
 }
 
