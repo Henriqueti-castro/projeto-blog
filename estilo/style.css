@@ -6,7 +6,10 @@
 
 :root {
     
-    --cor-darkgray: #212121; 
+    --cor-white: #ffffff;
+    --cor-darkgray: #212121;
+    --cor-transpgray: hsla(0, 0%, 50%, 0.552);
+
     --font-archivo: 'Archivo';
     --font-work: 'Work Sans';
 }
@@ -19,8 +22,4 @@
 
 html, body {
     width: 100vw;
-}
-
-body {
-    background-color: var(--cor-darkgray);
 }
