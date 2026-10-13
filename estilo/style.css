@@ -12,6 +12,7 @@
     --cor-Branco: #ffffff;
     --cor-Cinzagrafite: #263238;
     --cor-Azulsuave: #DCEBFA;
+    --cor-azul: #2878D0;
 
     --font-archivo: 'Archivo';
     --font-work: 'Work Sans';
@@ -85,5 +86,18 @@ div.apresentacao a {
     text-decoration: none;
     border-radius: 5px;
     padding: 10px;
+}
+
+div.apresentacao h2 {
+    color: var(--cor-Azulprofundo);
+    font-family: var(--font-archivo);
+    font-size: 2.7em;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div.apresentacao h2 span {
+    color: var(--cor-azul);
 }
 
