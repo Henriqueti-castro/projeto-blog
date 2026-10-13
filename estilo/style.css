@@ -223,3 +223,7 @@ nav#termos a {
     font-weight: normal;
     text-decoration: none;
 }
+
+nav#termos a:hover {
+    color: var(--cor-Azulvibrante);
+}
