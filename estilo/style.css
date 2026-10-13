@@ -6,9 +6,12 @@
 
 :root {
     
-    --cor-white: #ffffff;
-    --cor-darkgray: #212121;
-    --cor-transpgray: hsla(0, 0%, 50%, 0.552);
+    --cor-Brancoacinzentado: #F5F7FA;
+    --cor-Azulprofundo: #172B4D;
+    --cor-Azulvibrante: #2878D0;
+    --cor-Branco: #ffffff;
+    --cor-Cinzagrafite: #263238;
+    --cor-Azulsuave: #DCEBFA;
 
     --font-archivo: 'Archivo';
     --font-work: 'Work Sans';
@@ -23,3 +26,8 @@
 html, body {
     width: 100vw;
 }
+
+body {
+    background-color: var(--cor-Brancoacinzentado);
+}
+
