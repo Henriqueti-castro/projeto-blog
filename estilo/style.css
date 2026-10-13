@@ -183,6 +183,60 @@ div.conteudo-triplo article {
     height: 350px;
 }
 
+aside {
+    background-color: var(--cor-Azulprofundo);
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
+
+aside div {
+    color: var(--cor-Branco);
+    width: 750px;
+    line-height: 1.7em;
+}
+
+div p#sobre {
+    color: var(--cor-Azulvibrante);
+    font-family: var(--font-archivo);
+    font-size: 0.8em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+div h4 {
+    font-family: var(--font-archivo);
+    font-size: 1.7em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div p > span {
+    color: var(--cor-Azulvibrante);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+aside a {
+    color: var(--cor-azulescuro);
+    background-color: var(--cor-Branco);
+    font-family: var(--font-work);
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: auto;
+    transition: transform 0.3s;
+}
+
+aside a:hover {
+    background-color: var(--cor-Azulsuave);
+    transform: translateY(-5%);
+}
+
 footer {
     background-color: var(--cor-azulescuro);
     display: flex;
