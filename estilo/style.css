@@ -60,8 +60,12 @@ header#topo nav#navegacao {
 
 nav#navegacao a {
     color: var(--cor-Branco);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-archivo);
     text-decoration: none;
     text-transform: capitalize;
+}
+
+nav#navegacao a:hover {
+    color: var(--cor-Azulvibrante);
 }
 
