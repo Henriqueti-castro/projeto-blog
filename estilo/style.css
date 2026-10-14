@@ -219,6 +219,10 @@ div.desc-artigo a#link {
     text-align: justify;
 }
 
+div.desc-artigo a#link:hover {
+    color: var(--cor-azul);
+}
+
 div.desc-artigo > p.titulo {
     color: var(--cor-azul);
     font-size: 0.7em;
