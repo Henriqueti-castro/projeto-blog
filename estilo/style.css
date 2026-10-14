@@ -183,7 +183,7 @@ div.conteudo-triplo article {
     border: 1px solid var(--cor-Azulsuave);
     border-radius: 10px;
     width: 383px;
-    height: 350px;
+    height: 380px;
 }
 
 article div.fundo_artigo {
@@ -210,7 +210,7 @@ div.conteudo-triplo article div.desc-artigo {
     padding: 20px;
 }
 
-article div.desc-artigo a#link {
+div.desc-artigo a#link {
     color: var(--cor-Azulprofundo);
     font-family: var(--font-archivo);
     font-size: 1.2em;
@@ -219,9 +219,30 @@ article div.desc-artigo a#link {
     text-align: justify;
 }
 
-article div.desc-artigo p.titulo {
+div.desc-artigo > p.titulo {
+    color: var(--cor-azul);
     font-size: 0.7em;
+    padding-left: 0;
+    padding-bottom: 10px;
 }
+
+div.desc-artigo > p {
+    color: var(--cor-Cinzagrafite);
+    font-weight: normal;
+    line-height: 2em;
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.desc-artigo a {
+    color: var(--cor-azul);
+    font-family: var(--font-archivo);
+    font-size: 0.9em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
 
 aside {
     background-color: var(--cor-Azulprofundo);
