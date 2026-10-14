@@ -181,6 +181,7 @@ section.container-artigo div.conteudo-triplo {
 }
 
 div.conteudo-triplo article {
+    background-color: var(--cor-Branco);
     font-family: var(--font-archivo);
     border: 1px solid var(--cor-Azulsuave);
     border-radius: 10px;
@@ -256,7 +257,7 @@ div.desc-artigo a {
     text-decoration: none;
 }
 
-div.fundo2 {
+div#fundo2 {
     background-image: linear-gradient(to right, var(--cor-roxofundo), var(--cor-roxofundo2));
 }
 
