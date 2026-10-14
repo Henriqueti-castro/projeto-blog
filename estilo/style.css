@@ -257,6 +257,10 @@ div.desc-artigo a {
     text-decoration: none;
 }
 
+div.desc-artigo a:hover {
+    color: var(--cor-Azulprofundo);
+}
+
 div#fundo2 {
     background-image: linear-gradient(to right, var(--cor-roxofundo), var(--cor-roxofundo2));
 }
