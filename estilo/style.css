@@ -19,6 +19,8 @@
     --cor-azulfundo2: #2568B5;
     --cor-roxofundo: #372E6C;
     --cor-roxofundo2: #7A6DCD;
+    --cor-verdefundo: #165D5A;
+    --cor-verdefundo2: #3EA093;
     --cor-azulsomra: #0088ff3a;
 
     --font-archivo: 'Archivo';
@@ -267,6 +269,9 @@ div#fundo2 {
     background-image: linear-gradient(to right, var(--cor-roxofundo), var(--cor-roxofundo2));
 }
 
+div#fundo3 {
+    background-image: linear-gradient(to right, var(--cor-verdefundo), var(--cor-verdefundo2));
+}
 
 aside {
     background-color: var(--cor-Azulprofundo);
