@@ -222,6 +222,7 @@ div.desc-artigo a#link {
 div.desc-artigo > p.titulo {
     color: var(--cor-azul);
     font-size: 0.7em;
+    font-weight: 700;
     padding-left: 0;
     padding-bottom: 10px;
 }
