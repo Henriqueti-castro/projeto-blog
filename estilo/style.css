@@ -17,6 +17,8 @@
     --cor-azulfraco: #F5F7FA;
     --cor-azulfundo: #182E52;
     --cor-azulfundo2: #2568B5;
+    --cor-roxofundo: #372E6C;
+    --cor-roxofundo2: #7A6DCD;
 
     --font-archivo: 'Archivo';
     --font-work: 'Work Sans';
@@ -184,6 +186,12 @@ div.conteudo-triplo article {
     border-radius: 10px;
     width: 383px;
     height: 380px;
+    transition: 0.3s ease-out;
+}
+
+div.conteudo-triplo article:hover {
+    border: 1px solid var(--cor-Azulvibrante);
+    transform: translateY(-2%);
 }
 
 article div.fundo_artigo {
@@ -246,6 +254,10 @@ div.desc-artigo a {
     font-size: 0.9em;
     font-weight: 700;
     text-decoration: none;
+}
+
+div.fundo2 {
+    background-image: linear-gradient(to right, var(--cor-roxofundo), var(--cor-roxofundo2));
 }
 
 
