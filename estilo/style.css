@@ -19,6 +19,7 @@
     --cor-azulfundo2: #2568B5;
     --cor-roxofundo: #372E6C;
     --cor-roxofundo2: #7A6DCD;
+    --cor-azulsomra: #0088ff3a;
 
     --font-archivo: 'Archivo';
     --font-work: 'Work Sans';
@@ -191,7 +192,8 @@ div.conteudo-triplo article {
 }
 
 div.conteudo-triplo article:hover {
-    border: 1px solid var(--cor-Azulvibrante);
+    border: 1px solid var();
+    box-shadow: 0px 1px 15px var(--cor-azulsomra);
     transform: translateY(-2%);
 }
 
