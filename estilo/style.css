@@ -15,6 +15,8 @@
     --cor-Azulsuave: #DCEBFA;
     --cor-azul: #2878D0;
     --cor-azulfraco: #F5F7FA;
+    --cor-azulfundo: #182E52;
+    --cor-azulfundo2: #2568B5;
 
     --font-archivo: 'Archivo';
     --font-work: 'Work Sans';
@@ -177,10 +179,48 @@ section.container-artigo div.conteudo-triplo {
 }
 
 div.conteudo-triplo article {
+    font-family: var(--font-archivo);
     border: 1px solid var(--cor-Azulsuave);
     border-radius: 10px;
     width: 383px;
     height: 350px;
+}
+
+article div.fundo_artigo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, var(--cor-azulfundo), var(--cor-azulfundo2));
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 160px;
+}
+
+article div.fundo_artigo h4{
+    color: var(--cor-Branco);
+    font-family: var(--font-work);
+    font-size: 1.6em;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+div.conteudo-triplo article div.desc-artigo {
+    background-color: var(--cor-Branco);
+    padding: 20px;
+}
+
+article div.desc-artigo a#link {
+    color: var(--cor-Azulprofundo);
+    font-family: var(--font-archivo);
+    font-size: 1.2em;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: justify;
+}
+
+article div.desc-artigo p.titulo {
+    font-size: 0.7em;
 }
 
 aside {
