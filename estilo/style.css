@@ -76,7 +76,11 @@ nav#navegacao a:hover {
 }
 
 @media (max-width: 600px) {
-    
+    header#topo {
+        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 section.normal div.apresentacao {
