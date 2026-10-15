@@ -89,6 +89,10 @@ nav#navegacao a:hover {
     header#topo nav#navegacao {
         gap: 1em;
     }
+
+    nav#navegacao a {
+        font-size: 0.8em;
+    }
 }
 
 section.normal div.apresentacao {
