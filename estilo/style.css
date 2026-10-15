@@ -409,6 +409,7 @@ aside a:hover {
     aside {
         align-items: flex-start;
         flex-direction: column;
+        gap: 10px;
         padding-top: 20px;
         padding-left: 10px;
         padding-right: 10px;
@@ -416,7 +417,7 @@ aside a:hover {
     }
 
     aside div {
-        background-color: gray;
+        line-height: 1.4em;
         width: 100%;
     }
 
@@ -424,6 +425,13 @@ aside a:hover {
         font-size: 1.5em;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+
+    aside a {
+        font-size: 0.7em;
+        margin-left: 0;
+        margin-right: auto;
+        padding: 10px;
     }
 }
 
