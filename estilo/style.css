@@ -75,6 +75,10 @@ nav#navegacao a:hover {
     color: var(--cor-Azulvibrante);
 }
 
+@media (max-width: 600px) {
+    
+}
+
 section.normal div.apresentacao {
     width: 600px;
     height: 300px;
