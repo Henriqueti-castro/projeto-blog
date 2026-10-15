@@ -325,6 +325,10 @@ div#fundo3 {
     background-image: linear-gradient(to right, var(--cor-verdefundo), var(--cor-verdefundo2));
 }
 
+@media (max-width: 600px) {
+    
+}
+
 aside {
     background-color: var(--cor-Azulprofundo);
     display: flex;
