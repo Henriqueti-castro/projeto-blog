@@ -479,3 +479,10 @@ nav#termos a {
 nav#termos a:hover {
     color: var(--cor-Azulvibrante);
 }
+
+@media (max-width: 600px) {
+     footer {
+        gap: 0px;
+        padding: 10px;
+     }
+}
