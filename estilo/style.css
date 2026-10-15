@@ -180,6 +180,11 @@ div.apresentacao a#explorar:hover {
         font-size: 0.9em;
         text-align: justify;
     }
+
+    div.apresentacao a#explorar {
+        font-size: 0.9em;
+        padding: 10px;
+    }
 }
 
 section.container-artigo {
