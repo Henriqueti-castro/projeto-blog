@@ -405,6 +405,10 @@ aside a:hover {
     transform: translateY(-5%);
 }
 
+@media (max-width: 600px) {
+    
+}
+
 footer {
     background-color: var(--cor-azulescuro);
     display: flex;
