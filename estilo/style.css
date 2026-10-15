@@ -326,7 +326,14 @@ div#fundo3 {
 }
 
 @media (max-width: 600px) {
-    
+    section.container-artigo {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    section.container-artigo p {
+        
+    }
 }
 
 aside {
