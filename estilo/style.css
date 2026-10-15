@@ -160,6 +160,10 @@ div.apresentacao a#explorar:hover {
     transform: translateY(-10%);
 }
 
+@media (max-width: 600px) {
+    
+}
+
 section.container-artigo {
     border-top: 1px solid var(--cor-Azulsuave);
     display: flex;
