@@ -81,6 +81,10 @@ nav#navegacao a:hover {
         padding-left: 10px;
         padding-right: 10px;
     }
+
+    header#topo h1.infotec {
+        font-size: 1em;
+    }
 }
 
 section.normal div.apresentacao {
