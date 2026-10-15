@@ -93,10 +93,6 @@ nav#navegacao a:hover {
     nav#navegacao a {
         font-size: 0.8em;
     }
-
-    nav#navegacao a:hover {
-        color: var(--cor-Branco);
-    }
 }
 
 section.normal div.apresentacao {
