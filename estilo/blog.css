@@ -242,8 +242,22 @@ section.secao-artigo p {
     }
 }
 
-article.web-autor {
+section.web-autor {
     background-color: var(--cor-preto);
+}
+
+section.web-autor article {
+    background-color: var(--cor-preto);
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+section.web-autor div.img-autor {
+    background-color: var(--cor-preto);
+    display: block;
+    width: 300px;
+    height: 250px;
 }
 
 footer {
