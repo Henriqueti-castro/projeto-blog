@@ -494,15 +494,18 @@ nav#termos a:hover {
      }
 
      footer p {
-        font-size: 0.5em;
+        font-size: 0.4em;
      }
 
      footer nav#termos {
-        gap: 0px;
+        gap: 5px;
      }
 
      nav#termos a {
         font-size: 0.4em;
+        text-align: center;
+        width: 0;
         padding: 0px;
+        width: 75px;
      }
 }
