@@ -270,6 +270,21 @@ div.web-desc p {
     text-align: left;
 }
 
+@media (max-width: 600px) {
+    section.web-autor article {
+        gap: 20px;
+    }
+
+    article div.img-autor {
+        width: 200px;
+        height: 150px;
+    }
+
+    div.web-desc p {
+        font-size: 0.7em;
+    }
+}
+
 footer {
     background-color: var(--cor-azulescuro);
     display: flex;
