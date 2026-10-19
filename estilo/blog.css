@@ -82,7 +82,7 @@ nav#navegacao a:hover {
     color: var(--cor-Azulvibrante);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     header#topo {
         padding: 10px;
         padding-left: 15px;
@@ -104,10 +104,13 @@ nav#navegacao a:hover {
 
 main section.banner-blog {
     position: relative;
-    background: var(--cor-Cinzagrafite) url('../paginas blogs/web/imagens/web-blog/web-banner2.png') no-repeat top center;
-    background-size: cover;
+    background-color: var(--cor-preto);
     width: 100%;
     height: 500px;
+}
+
+section.banner-blog img {
+    width: 100%;
 }
 
 section.banner-blog article#web {
@@ -160,10 +163,14 @@ article#web div p.data-blog {
     text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     main section.banner-blog {
         height: 300px;
-        background-size: 100% 100%;
+    }
+
+    section.banner-blog img {
+        width: 100%;
+        height: 100%;
     }
 
     section.banner-blog article#web {
@@ -222,7 +229,7 @@ section.secao-artigo p {
     padding-bottom: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     section.secao-artigo {
         width: 100%;
         margin-top: 120px;
@@ -270,7 +277,7 @@ div.web-desc p {
     text-align: left;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     section.web-autor article {
         gap: 20px;
     }
@@ -330,7 +337,7 @@ nav#termos a:hover {
     color: var(--cor-Azulvibrante);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
      footer {
         gap: 10px;
         padding: 10px;
