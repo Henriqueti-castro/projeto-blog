@@ -295,6 +295,10 @@ div.web-desc p {
         gap: 20px;
     }
 
+    article ul > li {
+        font-size: 0.7em;
+    }
+
     article div.img-autor {
         width: 200px;
         height: 150px;
