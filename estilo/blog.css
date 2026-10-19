@@ -251,13 +251,19 @@ section.web-autor article {
     display: flex;
     align-items: center;
     gap: 50px;
+    margin-top: 20px;
 }
 
-section.web-autor div.img-autor {
+article div.img-autor {
     background-color: var(--cor-preto);
     display: block;
     width: 300px;
     height: 250px;
+}
+
+article div.web-desc {
+    display: block;
+    width: 500px;
 }
 
 footer {
