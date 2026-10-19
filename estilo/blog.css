@@ -4,3 +4,103 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    
+    --cor-Brancoacinzentado: #F5F7FA;
+    --cor-Azulprofundo: #172B4D;
+    --cor-azulescuro: #10213B;
+    --cor-Azulvibrante: #69B5FF;
+    --cor-Branco: #ffffff;
+    --cor-Cinzagrafite: #526174;
+    --cor-Azulsuave: #DCEBFA;
+    --cor-azul: #2878D0;
+    --cor-azulfraco: #F5F7FA;
+    --cor-azulfundo: #182E52;
+    --cor-azulfundo2: #2568B5;
+    --cor-roxofundo: #372E6C;
+    --cor-roxofundo2: #7A6DCD;
+    --cor-verdefundo: #165D5A;
+    --cor-verdefundo2: #3EA093;
+    --cor-azulsomra: #0088ff3a;
+
+    --font-archivo: 'Archivo';
+    --font-work: 'Work Sans';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-Branco);
+    font-family: var(--font-work);
+}
+
+header#topo {
+    top: 0;
+    position: sticky;
+    z-index: 100;
+    background-color: var(--cor-Azulprofundo);
+    border-bottom: 1px solid var(--cor-Cinzagrafite);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+header#topo h1.infotec span {
+    color: var(--cor-Azulvibrante);
+}
+
+header#topo h1.infotec {
+    color: var(--cor-Branco);
+    font-family: var(--font-archivo);
+    font-size: 1.8em;
+    font-weight: 900;
+}
+
+header#topo nav#navegacao {
+    display: flex;
+    gap: 2em;
+    margin-left: auto;
+}
+
+nav#navegacao a {
+    color: var(--cor-Branco);
+    font-family: var(--font-archivo);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+nav#navegacao a:hover {
+    color: var(--cor-Azulvibrante);
+}
+
+@media (max-width: 600px) {
+    header#topo {
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    header#topo h1.infotec {
+        font-size: 1em;
+    }
+
+    header#topo nav#navegacao {
+        gap: 1em;
+    }
+
+    nav#navegacao a {
+        font-size: 0.8em;
+    }
+}
+
+main div.banner-blog {
+    background-color: var(--cor-Cinzagrafite);
+    width: 100%;
+    height: 40%;
+}
