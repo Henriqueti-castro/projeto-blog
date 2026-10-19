@@ -242,6 +242,10 @@ section.secao-artigo p {
     }
 }
 
+article.web-autor {
+    background-color: var(--cor-preto);
+}
+
 footer {
     background-color: var(--cor-azulescuro);
     display: flex;
