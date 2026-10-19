@@ -7,6 +7,7 @@
 :root {
     
     --cor-preto: #0000003c;
+    --cor-preto2: #000000;
     --cor-Brancoacinzentado: #F5F7FA;
     --cor-Azulprofundo: #172B4D;
     --cor-azulescuro: #10213B;
@@ -242,20 +243,17 @@ section.secao-artigo p {
     }
 }
 
-section.web-autor {
-    background-color: var(--cor-preto);
-}
-
 section.web-autor article {
-    background-color: var(--cor-preto);
     display: flex;
     align-items: center;
     gap: 50px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 article div.img-autor {
-    background-color: var(--cor-preto);
+    background: var(--cor-preto) url('../paginas blogs/web/imagens/web-autor/img-autor.png') no-repeat center center;
+    background-size: 100% 100%;
     display: block;
     width: 300px;
     height: 250px;
@@ -264,6 +262,12 @@ article div.img-autor {
 article div.web-desc {
     display: block;
     width: 500px;
+}
+
+div.web-desc p {
+    color: var(--cor-preto2);
+    font-family: var(--font-work);
+    text-align: left;
 }
 
 footer {
