@@ -6,6 +6,7 @@
 
 :root {
     
+    --cor-preto: #0000003c;
     --cor-Brancoacinzentado: #F5F7FA;
     --cor-Azulprofundo: #172B4D;
     --cor-azulescuro: #10213B;
@@ -39,13 +40,14 @@ body {
 }
 
 header#topo {
-    top: 0;
     position: sticky;
+    top: 0;
     z-index: 100;
     background-color: var(--cor-Azulprofundo);
     border-bottom: 1px solid var(--cor-Cinzagrafite);
     display: flex;
     align-items: center;
+    margin: auto;
     padding: 20px;
     padding-left: 100px;
     padding-right: 100px;
@@ -99,9 +101,211 @@ nav#navegacao a:hover {
     }
 }
 
-main div.banner-blog {
+main section.banner-blog {
+    position: relative;
     background: var(--cor-Cinzagrafite) url('../paginas blogs/web/imagens/web-blog/web-banner2.png') no-repeat top center;
     background-size: cover;
     width: 100%;
     height: 500px;
+}
+
+section.banner-blog article#web {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-Branco);
+    box-shadow: 0px 0px 20px var(--cor-preto);
+    border-radius: 15px;
+    width: 1000px;
+    height: 250px;
+    padding: 20px;
+}
+
+article#web div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 900px;
+    height: 150px;
+    line-height: 3em;
+}
+
+article#web div p.area {
+    color: var(--cor-azul);
+    font-family: var(--font-archivo);
+    font-size: 0.9em;
+    font-weight: 700;
+    text-align: center;
+}
+
+article#web div h1 {
+    color: var(--cor-Cinzagrafite);
+    font-family: var(--font-archivo);
+    font-size: 2.2em;
+    font-weight: 700;
+    text-align: center;
+}
+
+article#web div p.data-blog {
+    color: var(--cor-azul);
+    font-family: var(--font-archivo);
+    font-size: 0.9em;
+    font-weight: normal;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    main section.banner-blog {
+        height: 300px;
+        background-size: 100% 100%;
+    }
+
+    section.banner-blog article#web {
+        top: 70%;
+        width: 90%;
+        height: 200px;
+        padding: 10px;
+    }
+
+    article#web div {
+        line-height: 2em;
+    }
+
+    article#web div p.area {
+        font-size: 0.8em;
+    }
+
+    article#web div h1 {
+        font-size: 1.2em;
+    }
+
+    article#web div p.data-blog {
+        font-size: 0.8em;
+    }
+}
+
+section.secao-artigo {
+    width: 1000px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 20px;
+}
+
+section.secao-artigo img {
+    display: block;
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+section.secao-artigo h2 {
+    color: var(--cor-Azulprofundo);
+    font-family: var(--font-archivo);
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+section.secao-artigo p {
+    color: var(--cor-Cinzagrafite);
+    font-family: var(--font-work);
+    font-weight: normal;
+    text-align: justify;
+    line-height: 2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    section.secao-artigo {
+        width: 100%;
+        margin-top: 120px;
+        padding: 10px;
+    }
+
+    section.secao-artigo img {
+        width: 300px;
+        height: 150px;
+    }
+
+    section.secao-artigo h2 {
+        font-size: 1.2em;
+    }
+}
+
+footer {
+    background-color: var(--cor-azulescuro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 275px;
+    padding: 30px;
+}
+
+footer span {
+    color: var(--cor-Azulvibrante);
+}
+
+footer h4 {
+    color: var(--cor-Branco);
+    font-family: var(--font-archivo);
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+footer p {
+    color: var(--cor-Branco);
+    font-family: var(--font-work);
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+footer nav#termos {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav#termos a {
+    color: var(--cor-Branco);
+    font-family: var(--font-work);
+    font-size: 0.8em;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+nav#termos a:hover {
+    color: var(--cor-Azulvibrante);
+}
+
+@media (max-width: 600px) {
+     footer {
+        gap: 10px;
+        padding: 10px;
+     }
+
+     footer h4 {
+        font-size: 0.5em;
+     }
+
+     footer p {
+        font-size: 0.4em;
+     }
+
+     footer nav#termos {
+        gap: 5px;
+     }
+
+     nav#termos a {
+        font-size: 0.4em;
+        text-align: center;
+        width: 0;
+        padding: 0px;
+        width: 71px;
+     }
 }
