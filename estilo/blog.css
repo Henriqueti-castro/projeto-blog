@@ -236,6 +236,10 @@ section.secao-artigo p {
     section.secao-artigo h2 {
         font-size: 1.2em;
     }
+
+    section.secao-artigo p {
+        font-size: 0.8em;
+    }
 }
 
 footer {
