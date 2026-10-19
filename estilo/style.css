@@ -300,7 +300,7 @@ div.desc-artigo > p {
     color: var(--cor-Cinzagrafite);
     font-weight: normal;
     line-height: 2em;
-    padding-left: 0;
+    padding-left: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
