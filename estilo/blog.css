@@ -258,6 +258,19 @@ section.web-autor article {
     margin-bottom: 20px;
 }
 
+article ul {
+    list-style-position: inside;
+    line-height: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article ul > li {
+    color: var(--cor-Cinzagrafite);
+    font-family: var(--font-work);
+    font-size: 0.9em;
+}
+
 article div.img-autor {
     background: var(--cor-preto) url('../paginas blogs/web/imagens/web-autor/img-autor.png') no-repeat center center;
     background-size: 100% 100%;
