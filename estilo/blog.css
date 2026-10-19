@@ -100,7 +100,8 @@ nav#navegacao a:hover {
 }
 
 main div.banner-blog {
-    background-color: var(--cor-Cinzagrafite);
+    background: var(--cor-Cinzagrafite) url('../paginas blogs/web/imagens/web-blog/web-banner3.png') no-repeat top center;
+    background-size: 100% 100%;
     width: 100%;
-    height: 40%;
+    height: 500px;
 }
