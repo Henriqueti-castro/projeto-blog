@@ -333,6 +333,7 @@ div#fundo3 {
 
     section.container-artigo p {
         font-size: 0.8em;
+        padding-left: 10px;
     }
 
     section.container-artigo h3 {
@@ -347,6 +348,10 @@ div#fundo3 {
     section.container-artigo div.conteudo-triplo {
         align-items: center;
         flex-direction: column;
+    }
+
+    div.desc-artigo > p {
+        padding-left: 0;
     }
 }
 
