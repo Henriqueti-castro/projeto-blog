@@ -426,6 +426,10 @@ aside a:hover {
         padding-bottom: 10px;
     }
 
+    div p {
+        font-size: 0.8em;
+    }
+
     aside a {
         font-size: 0.7em;
         margin-left: 0;
