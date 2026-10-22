@@ -49,6 +49,18 @@ header#topo {
     padding: 20px;
     padding-left: 100px;
     padding-right: 100px;
+    animation: baixo 1s linear forwards;
+}
+
+@keyframes baixo {
+    0% {
+        transform: translateY(-100%);
+        
+    }
+
+    100% {
+        transform: translateY(1);
+    }
 }
 
 header#topo h1.infotec span {
